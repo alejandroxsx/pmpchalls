@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban%7CMontserrat&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Esteban', serif;
+}
+/* FONTS */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+ /* NAV STYLING */
+ .nav-wrapper{
+   width: 95%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+nav span{
+  padding: 10px;
+}
+.nav-item{
+  width: 200px;
+}
+.nav-el{
+  border-right: solid 1px black;
+}
+/* END OF NAV */
+
+/* SPECIFIC STYLINGS */
+
+.background-highlight{
+  background-color: #fcba03;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+
+  align-self: center;
+}
+.section-padding{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* END OF SPECIFIC STYLINGS */
+
+/* CONTENT STYLINGS */
+.content-image{
+  width:50%;
+}
+.content-text{
+  width: 50%;
+  padding: 20px;
+}
+/* END OF CONTENT STYLINGS */
+
+/* WRAPPERS */
+.wrapper{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  text-align: center;
+}
+.content-wrapper{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+/* END OF WRAPPERS */
+
+/* MISCELANEOUS */
+.footer-section{
+  background-color: #4287f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#header-image{
+  height: 400px;
+  width: 100vw;
+}
+.mission-statement{
+  background: url('images/shifaaz-shamoon-sLAk1guBG90-unsplash.jpg');
+  text-align: center;
+  align-items: center;
+
+  height: 300px;
+}
+.mission-content{
+  height: 100%;
+  width:100%;
+  background-color: rgba(1, 31, 75, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fcba03;
+}
+.statement{
+
+}
+.icon{
+  width: 130px;
+}
