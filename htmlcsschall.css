@@ -116,3 +116,7 @@ nav span{
 .icon{
   width: 130px;
 }
+a{
+  text-decoration: none;
+  color:inherit;
+}
